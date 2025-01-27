@@ -8,8 +8,9 @@ At the end of the process, the program outputs an ordered list (from smallest to
 
 **Note**: For larger Wikipedia pages with numerous hyperlinks, the process may take several minutes due to the high number of linked pages being crawled.
 
-## Example:
+### Example:
 If the input keyword is "ball," the output might include:
 
 football: 826
+
 This indicates that the word "ball" appears 826 times on the Wikipedia page for "football" (as of 2021). The counts may vary as Wikipedia pages are updated.
