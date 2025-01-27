@@ -6,7 +6,7 @@ This program takes a user-provided Wikipedia entry (e.g., "ball") as input and r
 
 At the end of the process, the program outputs an ordered list (from smallest to largest) of all the hyperlinks, along with the number of times the keyword appears in each linked page.
 
-Note: For larger Wikipedia pages with numerous hyperlinks, the process may take several minutes due to the high number of linked pages being crawled.
+**Note**: For larger Wikipedia pages with numerous hyperlinks, the process may take several minutes due to the high number of linked pages being crawled.
 
 ## Example:
 If the input keyword is "ball," the output might include:
