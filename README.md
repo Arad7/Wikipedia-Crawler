@@ -10,5 +10,7 @@ At the end of the process, the program outputs an ordered list (from smallest to
 
 ## Example:
 If the input keyword is "ball," the output might include:
+
 football: 826
+
 This indicates that the word "ball" appears 826 times on the Wikipedia page for "football" (as of 2021). The counts may vary as Wikipedia pages are updated.
