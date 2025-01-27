@@ -1,15 +1,14 @@
 # Wikipedia Crawler
  A web crawler finding instances of key words in hyperlinks
 
-# What does it do?
-The user need to give a Wikipedia entry (just the name, for example: ball)
-The program will go to the Wikipedia page of the desired entry and will enter each of the hyperlinks links in the page. for each hyperlink, it will count how many time the original phrase (that the user put as an input) is shown.
+## What does it do?
+This program takes a user-provided Wikipedia entry (e.g., "ball") as input and retrieves the corresponding Wikipedia page. It then navigates through each hyperlink on the page and counts the occurrences of the original keyword (provided by the user) in the linked page's content.
 
-At the end, the program will print an OrderedList from smallest to largest of all the hyperlinks and a corresponding number that represent how many times the phrased is shown.
+At the end of the process, the program outputs an ordered list (from smallest to largest) of all the hyperlinks, along with the number of times the keyword appears in each linked page.
 
-Note -> for bigger Wikipedia pages, this can take few minutes as there could be dozens or hundreds of hyperlinks in the Wikipedia page.
+Note: For larger Wikipedia pages with numerous hyperlinks, the process may take several minutes due to the high number of linked pages being crawled.
 
-Example: if we enter the value: ball, the last thing the program will print will be-
+## Example:
+If the input keyword is "ball," the output might include:
 football: 826
-This means that the word "ball" is mentioned 826 times in the Wikipedia page of "football".
-(this specific example is correct to 2021), those values changes as the Wikipedia pages changes. 
+This indicates that the word "ball" appears 826 times on the Wikipedia page for "football" (as of 2021). The counts may vary as Wikipedia pages are updated.
